@@ -1,7 +1,7 @@
 name = input('please input your name:')
 print(name)
 age = input('how old are you:')
-#异常处理
+# 异常处理
 try:
     age = int(age)
     print(age)

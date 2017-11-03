@@ -12,7 +12,5 @@ num = 1
 while num < 10:
     num += 1
     if num % 2 == 0:
-        continue #终止本次，继续下一次
+        continue  # 终止本次，继续下一次
     print(num)
-
-
