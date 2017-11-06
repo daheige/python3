@@ -1,18 +1,14 @@
 # 字典列表使用
-aliens = [
-    {
-        'name': 'daheige',
-        'lang': 'php'
-    },
-    {
-        'name': 'guangge',
-        'lang': 'mysql'
-    },
-    {
-        'name': 'maoge',
-        'lang': 'java'
-    }
-]
+aliens = [{
+    'name': 'daheige',
+    'lang': 'php'
+}, {
+    'name': 'guangge',
+    'lang': 'mysql'
+}, {
+    'name': 'maoge',
+    'lang': 'java'
+}]
 print(aliens)
 for val in aliens:
     print(val)

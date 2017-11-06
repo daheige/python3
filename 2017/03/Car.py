@@ -11,12 +11,11 @@ class Car:
         print("this car name is" + self.name, "Car color is " + self.name,
               'size is ' + str(self.size))
 
+
 class Batt():
-    def __init(self,name,r):
+    def __init(self, name, r):
         self.name = name
-        self.r    = r
+        self.r = r
 
     def get_range(self):
-        print("this r is",self.r)
-    
-
+        print("this r is", self.r)

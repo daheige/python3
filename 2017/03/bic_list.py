@@ -13,7 +13,6 @@ for item in bic:
 
 print("think you!")
 
-
 for i in range(1, 5):
     print(i)
 
@@ -26,11 +25,10 @@ num2 = list(range(0, 10, 2))
 
 print(num2)
 
-
 sq = []
 
 for i in range(1, 11):
-    sq.append(i ** 2)  # 乘方
+    sq.append(i**2)  # 乘方
 
 print(sq)
 
@@ -40,9 +38,8 @@ print("对列表求和", sum(sq))
 
 # 列表解析
 
-sq_list = [value ** 2 for value in range(1, 11)]
+sq_list = [value**2 for value in range(1, 11)]
 print(sq_list)
-
 
 # 切片
 

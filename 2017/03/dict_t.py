@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 # coding:utf8
 
-ali = {
-    'x': 'fefefe',
-    'age': 23,
-    'name': 'sss'
-}
+ali = {'x': 'fefefe', 'age': 23, 'name': 'sss'}
 
 # ali.items()迭代每项
 for key, val in ali.items():

@@ -16,7 +16,6 @@ for item in dim:
 dim = (1, 23, 34, 98)
 print(dim)
 
-
 for i in dim:
     if i != 34:
         print("this value is ne 34")
@@ -24,7 +23,6 @@ for i in dim:
         print("this is 34")
 else:
     print(111)
-
 
 x = 13
 if x < 3:
