@@ -1,4 +1,7 @@
 __pycache__/
 __pycache__/*
 2017/**/*.json
-
+hg_env/
+hg_env/*
+hg_log/
+hg_log/*
