@@ -7,7 +7,7 @@ greet_user()
 greet_user('hehe')
 
 
-#函数返回值
+# 函数返回值
 def get_name(username='daheige'):
     return username.title()
 
@@ -22,7 +22,7 @@ def build_name(first_name='heige', last_name='da'):
 print(build_name('zw', 'da'))
 
 
-#参数是一个列表
+# 参数是一个列表
 def get_users(users):
     for name in users:
         print('hello ' + name.title())
@@ -31,8 +31,8 @@ def get_users(users):
 get_users(['heige', 'maoge'])
 
 
-#任意数量的参数
-def make_piza(*topings):  #topings是在里面是一个元祖
+# 任意数量的参数
+def make_piza(*topings):  # topings是在里面是一个元祖
     print('-------------topings--------')
     for name in topings:
         print('-' + name)
