@@ -10,7 +10,7 @@ print(x)
 print(y)
 
 print(1)
-print("朱伟")
+print("heige")
 
 # 这是一个注释
 print(y)
