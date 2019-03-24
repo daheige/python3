@@ -66,3 +66,10 @@ print(m.items()) #以列表返回可遍历的(键, 值) 元组数组
 for x,y in m.items():
     print(x)
     print(y)
+
+#利用zip生成字典
+names = ['daheige','xiaoxiao']
+ages =[12,28]
+dict3 = dict(zip(names,ages))
+print('===dict3===')
+print(dict3)
