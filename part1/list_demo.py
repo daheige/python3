@@ -1,6 +1,6 @@
 # coding: utf-8
 
-# list定义
+# 切片slice定义
 list1 = ["a", "b", "c"]
 
 print(list1)
