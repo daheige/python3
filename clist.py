@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 clist = [1, 23, 234, 'fefefe']
 # 追加元素
 clist.append('daheige')
